@@ -155,14 +155,16 @@
                 "/share/man"
             ],
             "post_install": [
+                "install -Dm644 sisco.lv2/COPYING -T ${FLATPAK_DEST}/share/licenses/x42-plugins/COPYING-GPL2",
+                "install -Dm644 darc.lv2/COPYING -T ${FLATPAK_DEST}/share/licenses/x42-plugins/COPYING-GPL3",
                 "install -Dm644 --target-directory=${FLATPAK_DEST}/share/metainfo org.freedesktop.LinuxAudio.Plugins.x42Plugins.metainfo.xml",
                 "appstream-compose --basename=org.freedesktop.LinuxAudio.Plugins.x42Plugins --prefix=${FLATPAK_DEST} --origin=flatpak org.freedesktop.LinuxAudio.Plugins.x42Plugins"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://gareus.org/misc/x42-plugins/x42-plugins-20200411.tar.xz",
-                    "sha256": "d2c07782896128873b1d6fd82e4730ef44cfe61e1cd730ee9e00b12f283ac778"
+                    "url": "http://gareus.org/misc/x42-plugins/x42-plugins-20200713.tar.xz",
+                    "sha256": "fb5052cd1913fd9c1bfa4a11f0227bdeea2f1b8026940bf85d0a9a140874229a"
                 },
                 {
                     "type": "patch",
