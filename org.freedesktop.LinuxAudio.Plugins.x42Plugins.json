@@ -1,11 +1,11 @@
 {
     "id": "org.freedesktop.LinuxAudio.Plugins.x42Plugins",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
-    "sdk": "org.freedesktop.Sdk//19.08",
-    "runtime-version": "19.08",
+    "sdk": "org.freedesktop.Sdk//20.08",
+    "runtime-version": "20.08",
     "build-extension": true,
     "appstream-compose": false,
-    "branch": "19.08",
+    "branch": "20.08",
     "build-options": {
         "prefix": "/app/extensions/Plugins/x42Plugins",
         "prepend-pkg-config-path": "/app/extensions/Plugins/x42Plugins/lib/pkgconfig"
