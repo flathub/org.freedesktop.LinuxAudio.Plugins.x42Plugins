@@ -57,7 +57,7 @@
             ]
         },
         {
-            "name": "vera-tff",
+            "name": "vera-ttf",
             "buildsystem": "simple",
             "build-commands": [
             ],
@@ -154,7 +154,7 @@
                 "/bin",
                 "/share/man"
             ],
-            "post_install": [
+            "post-install": [
                 "install -Dm644 sisco.lv2/COPYING -T ${FLATPAK_DEST}/share/licenses/x42-plugins/COPYING-GPL2",
                 "install -Dm644 darc.lv2/COPYING -T ${FLATPAK_DEST}/share/licenses/x42-plugins/COPYING-GPL3",
                 "install -Dm644 --target-directory=${FLATPAK_DEST}/share/metainfo org.freedesktop.LinuxAudio.Plugins.x42Plugins.metainfo.xml",
@@ -163,8 +163,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://gareus.org/misc/x42-plugins/x42-plugins-20210114.tar.xz",
-                    "sha256": "c54880fe4e596c8fd2918f1adb416cc91c2a3f1c4cb5e88574484517ff1ed8e0"
+                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20210407.tar.xz",
+                    "sha256": "af27427a918aacc1e8792caeae0dbcd355dafeca0fff37b3a7f3e6f8364ae575"
                 },
                 {
                     "type": "patch",
