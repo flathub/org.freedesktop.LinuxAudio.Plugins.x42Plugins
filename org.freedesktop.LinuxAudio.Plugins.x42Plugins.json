@@ -163,8 +163,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20210407.tar.xz",
-                    "sha256": "af27427a918aacc1e8792caeae0dbcd355dafeca0fff37b3a7f3e6f8364ae575"
+                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20210408.tar.xz",
+                    "sha256": "cdc1d958581556ba56a6984fb8c1c66144e4c7447c11417824239fb2fa787fe4"
                 },
                 {
                     "type": "patch",
