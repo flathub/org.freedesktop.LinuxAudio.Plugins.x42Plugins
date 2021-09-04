@@ -1,0 +1,20 @@
+--- a/configure.ac	2008-06-12 09:14:43.000000000 -0400
++++ b/configure.ac	2021-09-03 23:35:38.337845537 -0400
+@@ -41,7 +41,7 @@
+ 
+ AC_PATH_X
+ 
+-AC_CHECK_FT2([9.0.3],[],
++PKG_CHECK_MODULES(FREETYPE, freetype2 >= 9.0.3,[],
+              [AC_MSG_ERROR([FreeType2 is required to compile this library])])
+ 
+ AC_PATH_XTRA
+@@ -57,7 +57,7 @@
+ dnl search the include directory (required for non-srcdir builds).
+ dnl should come after the system services checks otherwise headers
+ dnl may conflict.
+-CPPFLAGS="$CPPFLAGS -I\${top_srcdir}/src"
++CPPFLAGS="$CPPFLAGS -I\${top_srcdir}/src $FREETYPE_CFLAGS"
+ 
+ # Warning flags
+ CPPFLAGS="${CPPFLAGS} -Wall -Wpointer-arith -Wcast-align -Wcast-qual -Wshadow -Wsign-compare"
