@@ -17,21 +17,21 @@
         <li>matrixmixer.lv2 (0.3.3): a matrix mixer</li>
         <li>meters.lv2 (0.9.19): Audio Level Meters</li>
         <li>mididebug.lv2 (0.3.2): MIDI Message Generator</li>
-        <li>midifilter.lv2 (0.6.5): Filter MIDI events</li>
+        <li>midifilter.lv2 (0.6.6): Filter MIDI events</li>
         <li>midigen.lv2 (0.4.0): Midi Event Generator</li>
         <li>midimap.lv2 (0.4.1): Midi Event Mapper</li>
         <li>mixtri.lv2 (0.4.3): a matrix mixer and trigger processor</li>
-        <li>nodelay.lv2 (0.5.1): a simple audio delay-line</li>
+        <li>nodelay.lv2 (0.6.0): a simple audio delay-line</li>
         <li>onsettrigger.lv2 (0.4.1): audio to midi converter currently intended for Bass/Kick-drums</li>
         <li>phaserotate.lv (0.5.1): audio file phase rotator</li>
         <li>sisco.lv2 (0.9.3): simple audio oscilloscope</li>
         <li>spectra.lv2 (0.5.3): Spectr Spectrum Analyzer</li>
-        <li>stepseq.lv2: 8x8 Midi Step Sequencer</li>
-        <li>stereoroute.lv2: versatile stereo to mono downmix utility</li>
+        <li>stepseq.lv2 (0.6.6): 8x8 Midi Step Sequencer</li>
+        <li>stereoroute.lv2 (0.2.1): versatile stereo to mono downmix utility</li>
         <li>testsignal.lv2 (0.5.4): audio-plugin for generating test-signals</li>
         <li>Tuna.LV2 (0.5.5): musical instrument tuner with strobe characteristics</li>
         <li>xfade.lv2 (0.3.0): audio plugin for stereo cross-fading 2 x 2 input channels to 2 output channels</li>
-        <li>zconvo.lv2 (0.5.1): plugin to convolve audio signals</li>
+        <li>zconvo.lv2 (0.5.2): plugin to convolve audio signals</li>
       </ul>
     </description>
     <project_license>GPL-2.0+ AND GPL-3.0+</project_license>
@@ -39,6 +39,7 @@
     <update_contact>_hub_AT_figuiere.net_</update_contact>
     <url type="homepage">https://x42-plugins.com/x42/</url>
     <releases>
+        <release version="2022.01.07" date="2022-01-07"/>
         <release version="2021.10.16" date="2021-10-16"/>
         <release version="2021.10.12" date="2021-10-12"/>
         <release version="2021.07.14" date="2021-07-14"/>
