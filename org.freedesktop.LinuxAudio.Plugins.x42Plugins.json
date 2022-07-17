@@ -1,8 +1,8 @@
 {
     "id": "org.freedesktop.LinuxAudio.Plugins.x42Plugins",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
+    "runtime-version": "stable",
     "sdk": "org.freedesktop.Sdk//21.08",
-    "runtime-version": "21.08",
     "build-extension": true,
     "appstream-compose": false,
     "branch": "21.08",
@@ -167,8 +167,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20220605.tar.xz",
-                    "sha256": "fe48b088912c8eac383c36d2336d9815209681d1a9e272ab31a93e5ca578b65d"
+                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20220714.tar.xz",
+                    "sha256": "9b2ac739f8290b0b96f185f48d9dd1bada2ab57cac5347a304d72ec4ddecb575"
                 },
                 {
                     "type": "patch",
