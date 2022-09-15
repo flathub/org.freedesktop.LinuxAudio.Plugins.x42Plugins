@@ -136,22 +136,10 @@
                 "env": {
                     "PREFIX": "${FLATPAK_DEST}",
                     "LV2DIR": "${FLATPAK_DEST}/lv2",
-                    "LDFLAGS": "-L${FLATPAK_DEST}/lib",
                     "FONTFILE": "${FLATPAK_DEST}/share/fonts/truetype/VeraBd.ttf",
                     "BUILDJACKAPP": "no"
                 },
-                "arch": {
-                    "aarch64": {
-                        "env": {
-                            "OPTIMIZATIONS": "-ffast-math -fomit-frame-pointer -O3 -fno-finite-math-only -DNDEBUG"
-                        }
-                    },
-                    "arm": {
-                        "env": {
-                            "OPTIMIZATIONS": "-ffast-math -fomit-frame-pointer -O3 -fno-finite-math-only -DNDEBUG"
-                        }
-                    }
-                }
+                "ldflags": "-L${FLATPAK_DEST}/lib"
             },
             "cleanup": [
                 "/bin",
@@ -166,8 +154,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20220714.tar.xz",
-                    "sha256": "9b2ac739f8290b0b96f185f48d9dd1bada2ab57cac5347a304d72ec4ddecb575"
+                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20220914.tar.xz",
+                    "sha256": "7c75c66e05c02efe888401e637c2ae99fb981813912a530864905f26415f3ada"
                 },
                 {
                     "type": "patch",
