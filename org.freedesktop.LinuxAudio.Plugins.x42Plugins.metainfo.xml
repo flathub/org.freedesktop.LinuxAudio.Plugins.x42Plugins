@@ -31,7 +31,7 @@
         <li>testsignal.lv2 (0.6.2): audio-plugin for generating test-signals</li>
         <li>Tuna.LV2 (0.6.2): musical instrument tuner with strobe characteristics</li>
         <li>xfade.lv2 (0.3.2): audio plugin for stereo cross-fading 2 x 2 input channels to 2 output channels</li>
-        <li>zconvo.lv2 (0.6.3): plugin to convolve audio signals</li>
+        <li>zconvo.lv2 (0.6.4): plugin to convolve audio signals</li>
       </ul>
     </description>
     <project_license>GPL-2.0+ AND GPL-3.0+</project_license>
@@ -39,6 +39,7 @@
     <update_contact>_hub_AT_figuiere.net_</update_contact>
     <url type="homepage">https://x42-plugins.com/x42/</url>
     <releases>
+        <release version="2022.09.23" date="2022-09-23"/>
         <release version="2022.09.14" date="2022-09-14"/>
         <release version="2022.07.14" date="2022-07-14"/>
         <release version="2022.06.05" date="2022-06-05"/>

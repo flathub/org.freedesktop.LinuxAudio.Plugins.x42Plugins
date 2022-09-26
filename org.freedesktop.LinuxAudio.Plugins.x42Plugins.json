@@ -85,8 +85,7 @@
                 }
             },
             "build-commands": [
-                "make -C source LIBDIR=$PREFIX/lib -j  $FLATPAK_BUILDER_N_JOBS",
-                "make -C source LIBDIR=$PREFIX/lib install"
+                "make -C source LIBDIR=$PREFIX/lib -j $FLATPAK_BUILDER_N_JOBS install"
             ],
             "cleanup": [
                 "/include",
@@ -129,8 +128,8 @@
             "name": "x42-plugins",
             "buildsystem": "simple",
             "build-commands": [
-                "make",
-                "make install"
+                "make -j $FLATPAK_BUILDER_N_JOBS",
+                "make -j $FLATPAK_BUILDER_N_JOBS install"
             ],
             "build-options": {
                 "env": {
@@ -154,8 +153,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20220914.tar.xz",
-                    "sha256": "7c75c66e05c02efe888401e637c2ae99fb981813912a530864905f26415f3ada"
+                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20220923.tar.xz",
+                    "sha256": "f58f6ea796628a99baba6b35c0449f7000ca80cc1ab364844a018f9fbe114ede"
                 },
                 {
                     "type": "patch",
