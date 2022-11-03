@@ -12,8 +12,6 @@
     },
     "cleanup": [
         "/bin",
-        "/lib/jack",
-        "/lib/libjack*",
         "/lib/lv2"
     ],
     "modules": [
@@ -153,8 +151,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20220923.tar.xz",
-                    "sha256": "f58f6ea796628a99baba6b35c0449f7000ca80cc1ab364844a018f9fbe114ede"
+                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20221101.tar.xz",
+                    "sha256": "92d397c75d1940d8b69d1ef0b5e152401950aa45b479f242f8af8b8de39d1544"
                 },
                 {
                     "type": "patch",
