@@ -24,9 +24,7 @@
             "build-options": {
                 "cflags": "-fPIC -DPIC",
                 "cxxflags": "-fPIC -DPIC",
-                "env": {
-                    "LDFLAGS": "-L/app/extensions/Plugins/x42Plugins/lib"
-                }
+                "ldflags": "-L/app/extensions/Plugins/x42Plugins/lib"
             },
             "cleanup": [
                 "/include",
@@ -151,8 +149,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20221101.tar.xz",
-                    "sha256": "92d397c75d1940d8b69d1ef0b5e152401950aa45b479f242f8af8b8de39d1544"
+                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20221119.tar.xz",
+                    "sha256": "ab946213357640a3565cff0a07a9d08f23424dfb626207a8c1c6c3ef4f4f1089"
                 },
                 {
                     "type": "patch",
