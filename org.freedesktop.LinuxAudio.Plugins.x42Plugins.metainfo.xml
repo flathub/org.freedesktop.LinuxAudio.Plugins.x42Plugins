@@ -10,26 +10,26 @@
         <li>balance.lv2 (0.6.9): Stereo balance</li>
         <li>controlfilter.lv2 (0.5.0): filter/process Control Parameters</li>
         <li>convo.LV2 (0.7.1): convolve audio signals with zero latency</li>
-        <li>darc.lv2 (0.6.3): Dynamic Audio Range Compressor</li>
-        <li>dpl.lv2 (0.6.3): Digital Peak Limiter</li>
-        <li>fat1.lv2 (0.8.3): AutoTune-1 auto-tuner based on Fons Adriaensen's zita-at1</li>
-        <li>fil4.lv2 (0.8.5): 4 band Parametric Equalizer</li>
-        <li>matrixmixer.lv2 (0.4.2): a matrix mixer</li>
-        <li>meters.lv2 (0.9.23): Audio Level Meters</li>
+        <li>darc.lv2 (0.6.4): Dynamic Audio Range Compressor</li>
+        <li>dpl.lv2 (0.6.4): Digital Peak Limiter</li>
+        <li>fat1.lv2 (0.8.4): AutoTune-1 auto-tuner based on Fons Adriaensen's zita-at1</li>
+        <li>fil4.lv2 (0.8.): 4 band Parametric Equalizer</li>
+        <li>matrixmixer.lv2 (0.4.4): a matrix mixer</li>
+        <li>meters.lv2 (0.9.24): Audio Level Meters</li>
         <li>mididebug.lv2 (0.3.3): MIDI Message Generator</li>
         <li>midifilter.lv2 (0.7.1): Filter MIDI events</li>
         <li>midigen.lv2 (0.4.1): Midi Event Generator</li>
         <li>midimap.lv2 (0.4.3): Midi Event Mapper</li>
-        <li>mixtri.lv2 (0.4.8): a matrix mixer and trigger processor</li>
+        <li>mixtri.lv2 (0.4.9): a matrix mixer and trigger processor</li>
         <li>nodelay.lv2 (0.6.2): a simple audio delay-line</li>
         <li>onsettrigger.lv2 (0.4.2): audio to midi converter currently intended for Bass/Kick-drums</li>
-        <li>phaserotate.lv (0.6.2): audio file phase rotator</li>
-        <li>sisco.lv2 (0.9.8): simple audio oscilloscope</li>
-        <li>spectra.lv2 (0.6.3): Spectr Spectrum Analyzer</li>
-        <li>stepseq.lv2 (0.6.11): 8x8 Midi Step Sequencer</li>
+        <li>phaserotate.lv (0.6.3): audio file phase rotator</li>
+        <li>sisco.lv2 (0.9.9): simple audio oscilloscope</li>
+        <li>spectra.lv2 (0.6.4): Spectr Spectrum Analyzer</li>
+        <li>stepseq.lv2 (0.6.12): 8x8 Midi Step Sequencer</li>
         <li>stereoroute.lv2 (0.2.1): versatile stereo to mono downmix utility</li>
         <li>testsignal.lv2 (0.6.3): audio-plugin for generating test-signals</li>
-        <li>tuna.LV2 (0.6.3): musical instrument tuner with strobe characteristics</li>
+        <li>tuna.LV2 (0.6.4): musical instrument tuner with strobe characteristics</li>
         <li>xfade.lv2 (0.3.3): audio plugin for stereo cross-fading 2 x 2 input channels to 2 output channels</li>
         <li>zconvo.lv2 (0.6.6): plugin to convolve audio signals</li>
       </ul>
@@ -39,6 +39,7 @@
     <update_contact>_hub_AT_figuiere.net_</update_contact>
     <url type="homepage">https://x42-plugins.com/x42/</url>
     <releases>
+        <release version="2023.03.15" date="2023-03-15"/>
         <release version="2022.11.19" date="2022-11-19"/>
         <release version="2022.11.01" date="2022-11-01"/>
         <release version="2022.09.23" date="2022-09-23"/>
