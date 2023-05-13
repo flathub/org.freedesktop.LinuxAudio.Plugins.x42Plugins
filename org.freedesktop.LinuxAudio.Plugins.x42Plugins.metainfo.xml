@@ -13,7 +13,7 @@
         <li>dpl.lv2 (0.6.5): Digital Peak Limiter</li>
         <li>fat1.lv2 (0.8.5): AutoTune-1 auto-tuner based on Fons Adriaensen's zita-at1</li>
         <li>fil4.lv2 (0.8.7): 4 band Parametric Equalizer</li>
-        <li>matrixmixer.lv2 (0.4.5): a matrix mixer</li>
+        <li>matrixmixer.lv2 (0.4.6): a matrix mixer</li>
         <li>meters.lv2 (0.9.25): Audio Level Meters</li>
         <li>mididebug.lv2 (0.3.4): MIDI Message Generator</li>
         <li>midifilter.lv2 (0.7.2): Filter MIDI events</li>
@@ -26,8 +26,8 @@
         <li>sisco.lv2 (0.9.10): simple audio oscilloscope</li>
         <li>spectra.lv2 (0.6.5): Spectr Spectrum Analyzer</li>
         <li>stepseq.lv2 (0.6.13): 8x8 Midi Step Sequencer</li>
-        <li>stereoroute.lv2 (0.2.2): versatile stereo to mono downmix utility</li>
-        <li>testsignal.lv2 (0.6.4): audio-plugin for generating test-signals</li>
+        <li>stereoroute.lv2 (0.2.3): versatile stereo to mono downmix utility</li>
+        <li>testsignal.lv2 (0.6.5): audio-plugin for generating test-signals</li>
         <li>tuna.LV2 (0.6.5): musical instrument tuner with strobe characteristics</li>
         <li>xfade.lv2 (0.3.4): audio plugin for stereo cross-fading 2 x 2 input channels to 2 output channels</li>
         <li>zconvo.lv2 (0.6.7): plugin to convolve audio signals</li>
@@ -38,6 +38,7 @@
     <update_contact>_hub_AT_figuiere.net_</update_contact>
     <url type="homepage">https://x42-plugins.com/x42/</url>
     <releases>
+      <release version="2023.05.12" date="2023-05-12"/>
       <release version="2023.05.11" date="2023-05-11">
         <description>
           <p>ConvoLV2 has been deprecated</p>
