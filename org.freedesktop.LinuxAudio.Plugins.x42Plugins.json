@@ -121,8 +121,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20230511.tar.xz",
-                    "sha256": "0facfba6d2b1c3d4336f25225f8f6fa52cd78d19db8152321880e517d0288a8e"
+                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20230512.tar.xz",
+                    "sha256": "b91d654372e6569b8cd4d0c484dfedbe4a343d47542672a89cd9523778a62635"
                 },
                 {
                     "type": "file",
