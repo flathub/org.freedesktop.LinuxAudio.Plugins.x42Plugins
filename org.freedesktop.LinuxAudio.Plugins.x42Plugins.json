@@ -73,34 +73,6 @@
             ]
         },
         {
-            "name": "zita-convolver",
-            "buildsystem": "simple",
-            "build-options": {
-                "env": {
-                    "PREFIX": "${FLATPAK_DEST}"
-                }
-            },
-            "build-commands": [
-                "make -C source LIBDIR=$PREFIX/lib -j $FLATPAK_BUILDER_N_JOBS install"
-            ],
-            "cleanup": [
-                "/include",
-                "*.so",
-                "*.a"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "http://kokkinizita.linuxaudio.org/linuxaudio/downloads/zita-convolver-4.0.3.tar.bz2",
-                    "sha256": "9aa11484fb30b4e6ef00c8a3281eebcfad9221e3937b1beb5fe21b748d89325f"
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/zita-convolver-make.patch"
-                }
-            ]
-        },
-        {
             "name": "libltc",
             "config-opts": [
                 "--disable-shared"
@@ -149,12 +121,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20230315.tar.xz",
-                    "sha256": "97b5a0f86efde62e10148f7834770f0e7bc931871f40e35490825ec97d9b668b"
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/x42-plugins-make.patch"
+                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20230511.tar.xz",
+                    "sha256": "0facfba6d2b1c3d4336f25225f8f6fa52cd78d19db8152321880e517d0288a8e"
                 },
                 {
                     "type": "file",
