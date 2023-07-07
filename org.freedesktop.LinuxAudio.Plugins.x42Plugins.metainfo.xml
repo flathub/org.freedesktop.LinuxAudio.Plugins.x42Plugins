@@ -29,7 +29,7 @@
         <li>stereoroute.lv2 (0.2.3): versatile stereo to mono downmix utility</li>
         <li>testsignal.lv2 (0.6.5): audio-plugin for generating test-signals</li>
         <li>tuna.LV2 (0.6.5): musical instrument tuner with strobe characteristics</li>
-        <li>xfade.lv2 (0.3.4): audio plugin for stereo cross-fading 2 x 2 input channels to 2 output channels</li>
+        <li>xfade.lv2 (0.3.5): audio plugin for stereo cross-fading 2 x 2 input channels to 2 output channels</li>
         <li>zconvo.lv2 (0.6.8): plugin to convolve audio signals</li>
       </ul>
     </description>
@@ -38,6 +38,11 @@
     <update_contact>_hub_AT_figuiere.net_</update_contact>
     <url type="homepage">https://x42-plugins.com/x42/</url>
     <releases>
+      <release version="2023.07.06" date="2023-07-06">
+        <description>
+          <p>xfade.lv2 0.3.5</p>
+        </description>
+      </release>
       <release version="2023.07.01" date="2023-07-01">
         <description>
           <p>fat1.lv2 0.8.6: reduce jitter and fix latency.</p>
