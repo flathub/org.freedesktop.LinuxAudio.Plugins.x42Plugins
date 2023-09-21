@@ -38,6 +38,16 @@
     <update_contact>_hub_AT_figuiere.net_</update_contact>
     <url type="homepage">https://x42-plugins.com/x42/</url>
     <releases>
+      <release version="2023.09.15" date="2023-09-15">
+        <description>
+          <p>midifilter.lv2 0.7.3 : Properly constrain CC2Note mode control #36</p>
+          <p>dpl.lv2 0.6.6</p>
+          <p>fat1.lv2 0.8.7</p>
+          <p>fil4.lv2 0.8.8</p>
+          <p>phaserotate.lv2 0.6.5</p>
+          <p>zconvo.lv2 0.7.1</p>
+        </description>
+      </release>
       <release version="2023.07.06" date="2023-07-06">
         <description>
           <p>xfade.lv2 0.3.5</p>
