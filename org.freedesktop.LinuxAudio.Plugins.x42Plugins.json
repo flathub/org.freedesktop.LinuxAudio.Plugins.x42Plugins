@@ -2,10 +2,9 @@
     "id": "org.freedesktop.LinuxAudio.Plugins.x42Plugins",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
     "runtime-version": "stable",
-    "sdk": "org.freedesktop.Sdk//23.08",
+    "sdk": "org.freedesktop.Sdk//24.08",
     "build-extension": true,
-    "appstream-compose": false,
-    "branch": "23.08",
+    "branch": "24.08",
     "build-options": {
         "prefix": "/app/extensions/Plugins/x42Plugins",
         "prepend-pkg-config-path": "/app/extensions/Plugins/x42Plugins/lib/pkgconfig"
@@ -23,7 +22,7 @@
             "rm-configure": true,
             "build-options": {
                 "cflags": "-fPIC -DPIC",
-                "cxxflags": "-fPIC -DPIC",
+                "cxxflags": "-fPIC -DPIC -fpermissive",
                 "ldflags": "-L/app/extensions/Plugins/x42Plugins/lib"
             },
             "cleanup": [
@@ -115,8 +114,7 @@
             "post-install": [
                 "install -Dm644 sisco.lv2/COPYING -T ${FLATPAK_DEST}/share/licenses/x42-plugins/COPYING-GPL2",
                 "install -Dm644 darc.lv2/COPYING -T ${FLATPAK_DEST}/share/licenses/x42-plugins/COPYING-GPL3",
-                "install -Dm644 --target-directory=${FLATPAK_DEST}/share/metainfo org.freedesktop.LinuxAudio.Plugins.x42Plugins.metainfo.xml",
-                "appstream-compose --basename=org.freedesktop.LinuxAudio.Plugins.x42Plugins --prefix=${FLATPAK_DEST} --origin=flatpak org.freedesktop.LinuxAudio.Plugins.x42Plugins"
+                "install -Dm644 org.freedesktop.LinuxAudio.Plugins.x42Plugins.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo"
             ],
             "sources": [
                 {
