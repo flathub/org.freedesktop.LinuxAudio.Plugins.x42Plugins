@@ -46,11 +46,10 @@
                 },
                 {
                     "type": "patch",
-                    "path": "patches/ftgl-relibtoolize-prep.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/ftgl-configure.patch"
+                    "paths": [
+			"patches/ftgl-relibtoolize-prep.patch",
+			"patches/ftgl-configure.patch"
+		    ]
                 }
             ]
         },
@@ -58,8 +57,6 @@
             "name": "vera-ttf",
             "buildsystem": "simple",
             "build-commands": [
-            ],
-            "post-install": [
                 "install -Dm644 -t ${FLATPAK_DEST}/share/licenses/vera-ttf COPYRIGHT.TXT",
                 "install -Dm644 -t ${FLATPAK_DEST}/share/fonts/truetype *.ttf"
             ],
@@ -119,8 +116,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20240611.tar.xz",
-                    "sha256": "94ee98d731061a1bfa1c8ac79aaf5bd0b037ecadd9cc1b42fc447306c194662c"
+                    "url": "https://gareus.org/misc/x42-plugins/x42-plugins-20250512.tar.xz",
+                    "sha256": "1c110d4dbd411b104320e5adb3009eeadd2613354d65feb93612e3b1f1382989"
                 },
                 {
                     "type": "file",

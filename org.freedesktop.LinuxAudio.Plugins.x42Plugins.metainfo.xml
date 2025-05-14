@@ -12,25 +12,25 @@
         <li>darc.lv2 (0.7.0): Dynamic Audio Range Compressor</li>
         <li>dpl.lv2 (0.7.0): Digital Peak Limiter</li>
         <li>fat1.lv2 (0.8.7): AutoTune-1 auto-tuner based on Fons Adriaensen's zita-at1</li>
-        <li>fil4.lv2 (0.8.8): 4 band Parametric Equalizer</li>
+        <li>fil4.lv2 (0.8.10): 4 band Parametric Equalizer</li>
         <li>matrixmixer.lv2 (0.4.7): a matrix mixer</li>
         <li>meters.lv2 (0.9.26): Audio Level Meters</li>
         <li>mididebug.lv2 (0.3.4): MIDI Message Generator</li>
-        <li>midifilter.lv2 (0.7.2): Filter MIDI events</li>
+        <li>midifilter.lv2 (0.7.4): Filter MIDI events</li>
         <li>midigen.lv2 (0.4.2): Midi Event Generator</li>
         <li>midimap.lv2 (0.4.4): Midi Event Mapper</li>
         <li>mixtri.lv2 (0.4.11): a matrix mixer and trigger processor</li>
         <li>nodelay.lv2 (0.6.3): a simple audio delay-line</li>
         <li>onsettrigger.lv2 (0.4.3): audio to midi converter currently intended for Bass/Kick-drums</li>
-        <li>phaserotate.lv (0.6.6): audio file phase rotator</li>
+        <li>phaserotate.lv (0.6.7): audio file phase rotator</li>
         <li>sisco.lv2 (0.9.11): simple audio oscilloscope</li>
         <li>spectra.lv2 (0.6.6): Spectr Spectrum Analyzer</li>
         <li>stepseq.lv2 (0.6.14): 8x8 Midi Step Sequencer</li>
         <li>stereoroute.lv2 (0.2.3): versatile stereo to mono downmix utility</li>
         <li>testsignal.lv2 (0.7.0): audio-plugin for generating test-signals</li>
-        <li>tuna.LV2 (0.6.6): musical instrument tuner with strobe characteristics</li>
+        <li>tuna.LV2 (0.6.7): musical instrument tuner with strobe characteristics</li>
         <li>xfade.lv2 (0.3.5): audio plugin for stereo cross-fading 2 x 2 input channels to 2 output channels</li>
-        <li>zconvo.lv2 (0.6.8): plugin to convolve audio signals</li>
+        <li>zconvo.lv2 (0.7.2): plugin to convolve audio signals</li>
       </ul>
     </description>
     <project_license>GPL-2.0+ AND GPL-3.0+</project_license>
@@ -38,6 +38,20 @@
     <update_contact>_hub_AT_figuiere.net_</update_contact>
     <url type="homepage">https://x42-plugins.com/x42/</url>
     <releases>
+      <release version="2025.05.12" date="2025-05-12">
+        <description>
+          <ul>
+            <li>fil4 0.8.10: Consistent control port naming</li>
+            <li>midifilter 0.7.4: Fix range of midi-chord "hold"
+            parameter</li>
+            <li>phaserotate 0.6.7: Fix heap buffer overflow in signal
+            meter</li>
+            <li>tuna 0.6.7: Allow GUI scaling</li>
+            <li>zconvo 0.7.2: Fix fast restart bug, Set atom:Path
+            string size while loading IR</li>
+          </ul>
+        </description>
+      </release>
       <release version="2024.06.11" date="2024-06-11">
         <description>
           <ul>
