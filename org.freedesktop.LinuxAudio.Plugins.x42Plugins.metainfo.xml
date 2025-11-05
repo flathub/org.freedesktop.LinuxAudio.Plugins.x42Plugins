@@ -38,6 +38,8 @@
     <update_contact>_hub_AT_figuiere.net_</update_contact>
     <url type="homepage">https://x42-plugins.com/x42/</url>
     <releases>
+      <release version="2025.10.25" date="2025-10-25">
+      </release>
       <release version="2025.05.12" date="2025-05-12">
         <description>
           <ul>
