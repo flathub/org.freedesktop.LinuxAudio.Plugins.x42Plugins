@@ -14,10 +14,10 @@
         <li>fat1.lv2 (0.8.7): AutoTune-1 auto-tuner based on Fons Adriaensen's zita-at1</li>
         <li>fil4.lv2 (0.8.10): 4 band Parametric Equalizer</li>
         <li>matrixmixer.lv2 (0.4.7): a matrix mixer</li>
-        <li>meters.lv2 (0.9.26): Audio Level Meters</li>
+        <li>meters.lv2 (0.9.27): Audio Level Meters</li>
         <li>mididebug.lv2 (0.3.4): MIDI Message Generator</li>
-        <li>midifilter.lv2 (0.7.4): Filter MIDI events</li>
-        <li>midigen.lv2 (0.4.2): Midi Event Generator</li>
+        <li>midifilter.lv2 (0.7.6): Filter MIDI events</li>
+        <li>midigen.lv2 (0.4.3): Midi Event Generator</li>
         <li>midimap.lv2 (0.4.4): Midi Event Mapper</li>
         <li>mixtri.lv2 (0.4.11): a matrix mixer and trigger processor</li>
         <li>nodelay.lv2 (0.6.3): a simple audio delay-line</li>
@@ -25,7 +25,7 @@
         <li>phaserotate.lv (0.6.7): audio file phase rotator</li>
         <li>sisco.lv2 (0.9.11): simple audio oscilloscope</li>
         <li>spectra.lv2 (0.6.6): Spectr Spectrum Analyzer</li>
-        <li>stepseq.lv2 (0.6.14): 8x8 Midi Step Sequencer</li>
+        <li>stepseq.lv2 (0.6.15): 8x8 Midi Step Sequencer</li>
         <li>stereoroute.lv2 (0.2.3): versatile stereo to mono downmix utility</li>
         <li>testsignal.lv2 (0.7.0): audio-plugin for generating test-signals</li>
         <li>tuna.LV2 (0.6.7): musical instrument tuner with strobe characteristics</li>
@@ -38,6 +38,15 @@
     <update_contact>_hub_AT_figuiere.net_</update_contact>
     <url type="homepage">https://x42-plugins.com/x42/</url>
     <releases>
+      <release version="2026.01.25" date="2026-01-25">
+        <description>
+          <ul>
+            <li>meters 0.9.27: Add missing output port lv2:maximum</li>
+            <li>midifilter 0.7.6: Add missing output port lv2:maximum</li>
+            <li>stepseq: Fix maximum for Drum Mode</li>
+          </ul>
+        </description>
+      </release>
       <release version="2025.10.25" date="2025-10-25">
       </release>
       <release version="2025.05.12" date="2025-05-12">
