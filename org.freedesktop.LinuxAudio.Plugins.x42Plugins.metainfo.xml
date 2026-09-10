@@ -10,31 +10,31 @@
         <li>balance.lv2 (0.7.1): Stereo balance</li>
         <li>controlfilter.lv2 (0.5.1): filter/process Control
         Parameters</li>
-        <li>darc.lv2 (0.7.3): Dynamic Audio Range Compressor</li>
-        <li>dpl.lv2 (0.7.2): Digital Peak Limiter</li>
-        <li>fat1.lv2 (0.8.10): AutoTune-1 auto-tuner based on Fons
+        <li>darc.lv2 (0.7.4): Dynamic Audio Range Compressor</li>
+        <li>dpl.lv2 (0.7.3): Digital Peak Limiter</li>
+        <li>fat1.lv2 (0.8.11): AutoTune-1 auto-tuner based on Fons
         Adriaensen's zita-at1</li>
-        <li>fil4.lv2 (0.8.12): 4 band Parametric Equalizer</li>
-        <li>matrixmixer.lv2 (0.4.9): a matrix mixer</li>
-        <li>meters.lv2 (0.9.29): Audio Level Meters</li>
+        <li>fil4.lv2 (0.8.13): 4 band Parametric Equalizer</li>
+        <li>matrixmixer.lv2 (0.4.10): a matrix mixer</li>
+        <li>meters.lv2 (0.9.30): Audio Level Meters</li>
         <li>mididebug.lv2 (0.3.4): MIDI Message Generator</li>
         <li>midifilter.lv2 (0.7.7): Filter MIDI events</li>
         <li>midigen.lv2 (0.4.3): Midi Event Generator</li>
         <li>midimap.lv2 (0.4.4): Midi Event Mapper</li>
-        <li>mixtri.lv2 (0.4.13): a matrix mixer and trigger
+        <li>mixtri.lv2 (0.4.14): a matrix mixer and trigger
         processor</li>
         <li>nodelay.lv2 (0.6.3): a simple audio delay-line</li>
         <li>onsettrigger.lv2 (0.4.3): audio to midi converter
         currently intended for Bass/Kick-drums</li>
-        <li>phaserotate.lv (0.6.10): audio file phase rotator</li>
-        <li>sisco.lv2 (0.9.13): simple audio oscilloscope</li>
-        <li>spectra.lv2 (0.6.8): Spectr Spectrum Analyzer</li>
-        <li>stepseq.lv2 (0.6.17): 8x8 Midi Step Sequencer</li>
+        <li>phaserotate.lv (0.6.11): audio file phase rotator</li>
+        <li>sisco.lv2 (0.9.14): simple audio oscilloscope</li>
+        <li>spectra.lv2 (0.6.9): Spectr Spectrum Analyzer</li>
+        <li>stepseq.lv2 (0.6.18): 8x8 Midi Step Sequencer</li>
         <li>stereoroute.lv2 (0.2.3): versatile stereo to mono downmix
         utility</li>
         <li>testsignal.lv2 (0.7.0): audio-plugin for generating
         test-signals</li>
-        <li>tuna.LV2 (0.6.9): musical instrument tuner with strobe
+        <li>tuna.LV2 (0.6.10): musical instrument tuner with strobe
         characteristics</li>
         <li>xfade.lv2 (0.3.5): audio plugin for stereo cross-fading 2
         x 2 input channels to 2 output channels</li>
@@ -46,6 +46,7 @@
     <update_contact>_hub_AT_figuiere.net_</update_contact>
     <url type="homepage">https://x42-plugins.com/x42/</url>
     <releases>
+      <release version="2026.09.08" date="2026-09-08" />
       <release version="2026.08.29" date="2026-08-29">
         <description>
           <ul>
